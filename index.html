@@ -1,129 +1,717 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <!--Menu NAV-->
-      <nav>
-        <!--LOGO-->
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
-          </li>
-          <li>
-            <a href="">Portfolio</a>
-          </li>
-          <li>
-            <a href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!--Contacts-->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
-    <main>
-      <!--Section 1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
-      </section>
-      <!--Section 2-->
-      <section>
-        <!--Заголовок секції на макеті відсутній, заховаємо в CSS-->
-        <h2>Our principles</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
 
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- <link rel="stylesheet" href="./css/style-font.css" /> -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header-section ">
+      <div class=" header-container container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">MIMIHO</a>
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./restourant-page.html"
+                >Ресторан</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="tel:+380955559533">
+                <svg class="header-nav-icon">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./hotel-page.html">Готель</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="tel:+380668491089">
+                <svg class="header-nav-icon">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div><a
+            class="hero-adress"
+            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BB%D0%B0+%D0%91%D0%B8%D1%80%D1%8E%D0%B7%D0%BE%D0%B2%D0%B0,+15,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+36000/@49.599194,34.5265463,17z/data=!3m1!4b1!4m6!3m5!1s0x40d82601f3347a5f:0x36f3f9aeec44a6a!8m2!3d49.599194!4d34.5265463!16s%2Fg%2F1tggm4y1" target="_blank"
+          >
+            <div class="hero-adress-box">
+              <div>
+                <svg class="hero-adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#location-pin"></use>
+                </svg>
+              </div>
+              <p class="hero-adress-text">
+                Україна, м. Полтава, вул. Маршала Бірюзова, 15
+              </p>
+            </div>
+          </a></div>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <h1 class="hero-title"><span>MIMIHO</span></h1>
+          <h2 class="hero-after-title">Ресторанно-готельний комплекс</h2>
+          <p class="hero-text">СМАК ЖИТТЯ 24/7</p>
+
+          <!-- <a
+            class="hero-adress"
+            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BB%D0%B0+%D0%91%D0%B8%D1%80%D1%8E%D0%B7%D0%BE%D0%B2%D0%B0,+15,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+36000/@49.599194,34.5265463,17z/data=!3m1!4b1!4m6!3m5!1s0x40d82601f3347a5f:0x36f3f9aeec44a6a!8m2!3d49.599194!4d34.5265463!16s%2Fg%2F1tggm4y1"
+          >
+            <div class="hero-adress-box">
+              <div>
+                <svg class="hero-adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#location-pin"></use>
+                </svg>
+              </div>
+              <p class="hero-adress-text">
+                Україна, м. Полтава, вул. Маршала Бірюзова, 15
+              </p>
+            </div>
+          </a> -->
+
+          <ul class="hero-button-list list">
+            <li class="hero-button-item">
+              <button class="hero-button" type="button" data-modal-open>
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-item">
+              <button class="hero-button" type="button" >
+                Забронювати номер
+              </button>
+            </li>
+          </ul>
+          <ul class="hero-social-list list">
+            <li class="hero-social-item">
+              <a
+                class="hero-social-link"
+                href="https://www.instagram.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg class="hero-social-icon" width="20" height="20">
+                  <use
+                    href="./images/icons.svg#instagram"
+                    width="20"
+                    height="20"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero-social-item">
+              <a
+                class="hero-social-link"
+                href="https://www.facebook.com"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><svg class="hero-social-icon" width="20" height="20">
+                  <use
+                    href="./images/icons.svg#facebook"
+                    width="20"
+                    height="20"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="hero-social-item">
+              <a
+                class="hero-social-link"
+                href="https://telegram.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg class="hero-social-icon" width="20" height="20">
+                  <use
+                    href="./images/icons.svg#telegram"
+                    width="20"
+                    height="20"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <!--Section 3-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img src="./images/img1.jpg" alt="laptop" width="360" />
-          </li>
-          <li>
-            <img src="./images/img2.jpg" alt="mobile phone" width="360" />
-          </li>
-          <li>
-            <img src="./images/img3.jpg" alt="laptop+phone" width="360" />
-          </li>
-        </ul>
+      <section class="about-section">
+        <div class="container about-container">
+          <p class="about-pre-title">Amet minim mollit non</p>
+          <h3 class="about-title">MIMIHO</h3>
+
+          <ul class="list about-list">
+            <li class="about-item">
+              <p class="about-list-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <img
+                class="about-list-img"
+                src="./images/home-page-1-mob@1x-min.jpg"
+                srcset="
+                  ./images/home-page-1-mob@1x-min.jpg 1x,
+                  ./images/home-page-1-mob@2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="244"
+                height="322"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                class="about-list-img"
+                src="./images/home-page-2-mob@1x-min.jpg"
+                srcset="
+                  ./images/home-page-2-mob@1x-min.jpg 1x,
+                  ./images/home-page-2-mob@1x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="200"
+                height="278"
+              />
+              <p class="about-list-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="list about-slider">
+            <li class="about-slider-item">
+              <img
+                class="about-slider-img"
+                src="./images/home-slide-1-mob@1x-min.jpg"
+                srcset="
+                  ./images/home-slide-1-mob@1x-min.jpg 1x,
+                  ./images/home-slide-1-mob@2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="245"
+                height="245"
+              />
+            </li>
+            <li class="about-slider-item">
+              <img
+                class="about-slider-img"
+                src="./images/home-slide-1-mob@1x-min.jpg"
+                srcset="
+                  ./images/home-slide-1-mob@1x-min.jpg 1x,
+                  ./images/home-slide-1-mob@2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="245"
+                height="245"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="list button-list">
+            <li class="button-item">
+              <button class="button" type="button">
+                <svg class="button-icon">
+                  <use
+                    href="./images/icons.svg#arrow-left"
+                    width="32"
+                    height="32"
+                  ></use>
+                </svg>
+              </button>
+            </li>
+            <li class="button-item">
+              <button class="button" type="button">
+                <svg class="button-icon">
+                  <use
+                    href="./images/icons.svg#arrow-right"
+                    width="32"
+                    height="32"
+                  ></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
-      <!--Section 4-->
+      <section class="restourant">
+        <div class="container restourant-container">
+          <h3 class="restourant-title">MIMIHO</h3>
+          <h4 class="restourant-after-title">Ресторан</h4>
+          <p class="restourant-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit.
+          </p>
+          <div>
+            <ul class="list about-slider">
+              <li class="about-slider-item">
+                <img
+                  class="about-slider-img"
+                  src="./images/home-rest-slide1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-rest-slide1-mob@1x-min.jpg 1x,
+                    ./images/home-rest-slide1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+              <li class="about-slider-item">
+                <img
+                  class="about-slider-img"
+                  src="./images/home-rest-slide1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-rest-slide1-mob@1x-min.jpg 1x,
+                    ./images/home-rest-slide1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="restourant-arrow">
+            <ul class="list arrow-list">
+              <li class="arrow-item">
+                <button class="arrow" type="button">
+                  <svg class="arrow-icon">
+                    <use
+                      href="./images/icons.svg#arrow-left"
+                      width="32"
+                      height="32"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="arrow-item">
+                <button class="arrow" type="button">
+                  <svg class="arrow-icon">
+                    <use
+                      href="./images/icons.svg#arrow-right"
+                      width="32"
+                      height="32"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <ul class="hero-button-list list">
+            <li class="hero-button-item">
+              <button class="hero-button" type="button" data-modal-open>
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hero-button-item">
+              <button class="hero-button" type="button">
+                Переглянути меню
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="room-section">
+        <div class="container">
+          <p class="room-pre-title">Amet minim mollit non</p>
+          <h3 class="room-title">MIMIHO</h3>
+
+          <ul class="list room-list">
+            <li class="room-item">
+              <p class="room-list-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <img
+                class="room-list-img"
+                src="./images/room-mob@1x-min.jpg"
+                srcset="
+                  ./images/room-mob@1x-min.jpg 1x,
+                  ./images/room-mob@2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="244"
+                height="322"
+              />
+            </li>
+            <li class="room-item">
+              <p class="room-list-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <img
+                class="room-list-img"
+                src="./images/home-hotel-mob@1x-min.jpg"
+                srcset="
+                  ./images/home-hotel-mob@1x-min.jpg 1x,
+                  ./images/home-hotel-mob@2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="200"
+                height="278"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="container room-slider-container">
+          <ul class="list room-slider">
+            <li class="room-slider-item">
+              <img
+                class="room-slider-img"
+                src="./images/home-hotel-registration-1-1x-min.jpg"
+                srcset="
+                  ./images/home-hotel-registration-1-1x-min.jpg 1x,
+                  ./images/home-hotel-registration-1-2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="245"
+                height="245"
+              />
+            </li>
+            <li class="room-slider-item">
+              <img
+                class="room-slider-img"
+                src="./images/home-hotel-registration-1-1x-min.jpg"
+                srcset="
+                  ./images/home-hotel-registration-1-1x-min.jpg 1x,
+                  ./images/home-hotel-registration-1-2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="245"
+                height="245"
+              />
+            </li>
+            <li class="room-slider-item">
+              <img
+                class="room-slider-img"
+                src="./images/home-hotel-registration-1-1x-min.jpg"
+                srcset="
+                  ./images/home-hotel-registration-1-1x-min.jpg 1x,
+                  ./images/home-hotel-registration-1-2x-min.jpg 2x
+                "
+                alt="Зала ресторану"
+                width="245"
+                height="245"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="list button-list">
+            <li class="button-item">
+              <button class="button prew" type="button">
+                <svg class="button-icon">
+                  <use
+                    href="./images/icons.svg#arrow-left"
+                    width="32"
+                    height="32"
+                  ></use>
+                </svg>
+              </button>
+            </li>
+            <li class="button-item">
+              <button class="button next" type="button">
+                <svg class="button-icon">
+                  <use
+                    href="./images/icons.svg#arrow-right"
+                    width="32"
+                    height="32"
+                  ></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="hotel-section">
+        <div class="container hotel-container">
+          <h3 class="hotel-title">MIMIHO</h3>
+          <h4 class="hotel-after-title">Готель</h4>
+          <p class="hotel-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit.
+          </p>
+          <div id="carousel" class="hotel-slider-box">
+            <ul class="list hotel-slider">
+              <li class="hotel-slider-item">
+                <img
+                  class="hotel-slider-img"
+                  src="./images/home-hotel-slide-1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-hotel-slide-1-mob@1x-min.jpg 1x,
+                    ./images/home-hotel-slide-1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+              <li class="hotel-slider-item">
+                <img
+                  class="hotel-slider-img"
+                  src="./images/home-hotel-slide-1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-hotel-slide-1-mob@1x-min.jpg 1x,
+                    ./images/home-hotel-slide-1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+              <li class="hotel-slider-item">
+                <img
+                  class="hotel-slider-img"
+                  src="./images/home-hotel-slide-1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-hotel-slide-1-mob@1x-min.jpg 1x,
+                    ./images/home-hotel-slide-1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+              <li class="hotel-slider-item">
+                <img
+                  class="hotel-slider-img"
+                  src="./images/home-hotel-slide-1-mob@1x-min.jpg"
+                  srcset="
+                    ./images/home-hotel-slide-1-mob@1x-min.jpg 1x,
+                    ./images/home-hotel-slide-1-mob@2x-min.jpg 2x
+                  "
+                  alt="Зала ресторану"
+                  width="274"
+                  height="270"
+                />
+              </li>
+            </ul>
+          </div>
+          <div id="buttons" class="hotel-arrow-box">
+            <ul class="list hotel-arrow-list">
+              <li class="hotel-arrow-item">
+                <button class="hotel-arrow prev" type="button">
+                  <svg class="hotel-arrow-icon">
+                    <use
+                      href="./images/icons.svg#arrow-left"
+                      width="32"
+                      height="32"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hotel-arrow-item">
+                <button class="hotel-arrow next" type="button">
+                  <svg class="hotel-arrow-icon">
+                    <use
+                      href="./images/icons.svg#arrow-right"
+                      width="32"
+                      height="32"
+                    ></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="hotel-button-list list">
+            <li class="hotel-button-item">
+              <button class="hotel-button" type="button" data-modal-open>
+                Забронювати столик
+              </button>
+            </li>
+            <li class="hotel-button-item">
+              <button class="hotel-button" type="button">
+                Переглянути ціни
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts-section">
+        <div class="container">
+          <h3 class="contacts-title">MIMIHO</h3>
+          <h4 class="contacts-after-title">Ресторанно-готельний комплекс</h4>
+          <ul class="contacts-list list">
+            <li class="contacts-item">
+              <span class="contacts-text-rest">Ресторан</span>
+              <span class="contacts-item-rest">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+                <span class="contacts-tel">095 555 95 33</span>
+              </span>
+            </li>
+            <li class="contacts-item">
+              <span class="contacts-text-hotel">Готель</span>
+              <span class="contacts-item-hotel">
+                <svg class="contacts-icon">
+                  <use
+                    href="./images/icons.svg#phone"
+                    width="24"
+                    height="24"
+                  ></use>
+                </svg>
+
+                <span class="contacts-tel">066 849 10 89</span>
+                <span class="contacts-tel-two">067 275 85 40</span>
+              </span>
+            </li>
+          </ul>
+          <div>
+            <div class="contacts-adress-box">
+              <div>
+                <svg class="contacts-icon-pin">
+                  <use href="./images/icons.svg#location-pin"></use>
+                </svg>
+              </div>
+              <p >
+                <pre class="contacts-adress">Україна, м. Полтава,
+вул. Маршала
+Бірюзова, 15
+</pre>
+              </p>
+            </div>
+          </div>
+          <img class="contacts-map"
+            
+            src="./images/map-mob@1x-min.jpg"
+            srcset="
+              ./images/map-mob@1x-min.jpg 1x,
+              ./images/map-mob@2x-min.jpg 2x
+            "
+            alt="Зала ресторану"
+            width="384"
+            height="220"
+          />
+        </div>
+      </section>
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/img4.jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/img5.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/img6.jpg" alt="Camila Garcia" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="./images/img7.jpg" alt="Daniel Wilson" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+        <img src="./images/choco-nut-mob@2x.jpg" alt="" width="335">
       </section>
     </main>
-    <!--Footer-->
-    <footer>
-      <!--LOGO-->
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+
+    <footer></footer>
+     <div class="backdrop is-hidden" data-modal>
+      <div class="modal_t">
+        <button data-modal-close class="modal-btn">
+          <svg width="18" height="18">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <form class="form" name="signup_form" autocomplete="on">
+          <p class="form-title">
+           Забронювати столик
+          </p>
+          
+           
+          
+              <input
+                class="form-input"
+                type="name"
+                name="name"
+                placeholder="Ваше ім'я"
+                autofocus
+                minlength="3"
+                maxlength="30"
+                required
+              />
+               <label class="form-label">
+               На кого забронювати столик?
+            </label>
+                 
+          
+                <input
+                class="form-input"
+                type="tel"
+                name="phone"
+                placeholder="+38(___)___-__-__"
+                pattern="[\+]\d{2}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}"
+                title="+38(000)111-11-11"
+                
+                minlength="17"
+                maxlength="17"
+                required
+              />
+              <label class="form-label"> Номер телефону
+            </label>
+            
+             <div class="select-wrapper">
+            <select class="form-select" id="number" name="people" >
+                
+                <option class="form-option" value="2">2</option>
+                <option class="form-option" value="3">3</option>
+                <option class="form-option" value="4">4</option>
+                <option class="form-option" value="5">5</option>
+                <option class="form-option" value="6">6</option>
+                <option class="form-option" value="7">7</option>
+                <option class="form-option" value="8">8</option>
+            </select>
+            </div>
+          <label class="form-label"> Столик на яку кількість осіб?
+            </label>
+            <!-- <div class="select-wrapper"> -->
+          <!-- <select class="form-select" id="date" name="date">
+                <option class="form-option" value="today">Сьогодні</option>
+                <option class="form-option" value="tomorrow">Завтра</option>
+                <option class="form-option" value="after-tomorrow">Післязавтра</option>
+                
+            </select>  -->
+            <div class="select-wrapper">
+              
+            <input class="form-input" type="text" placeholder="Сьогодні" onfocus="(this.type='date')"onblur="(this.type='text')" min="2023-01-01" max="2200-01-01" required>
+            
+            </div> 
+            <label class="form-label">  На яку дату бронювати?</label>
+         
+        
+           
+           
+          <button  data-modal-close  class="form-button" type="submit" ><span class="form-button-text">Оформити бронювання</span></button>
+          
+        </form>
+      </div>
+    </div> 
+    <script src="./js/carousel.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
